@@ -1,0 +1,91 @@
+/* Title Area */
+
+#row1 {
+    height: 6em;
+}
+
+#bumper {
+    background-color: aqua;
+}
+
+#tasks {
+    background-color: red;
+    text-align: center;
+}
+
+#date {
+    background-color: green;
+    text-align: center;
+}
+
+/* User area  */ 
+
+#row2 {
+    height: 40em;
+}
+
+#userName {
+    background-color: lightcoral;
+    text-align: center;
+
+
+}
+
+#taskList {
+    background-color: lightgray;
+    text-align: center;
+    padding-top: 5em;
+
+}
+
+/* Progress Bar Section */
+
+#row3 {
+    height: 10em;
+}
+
+#user1Bar {
+    padding-top: 3em;
+}
+
+#user2Bar {
+    padding-top: 3em;
+}
+
+#user2Bar .progress-right .progress-bar {
+    float: right;
+}
+
+#prizeIcon {
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 50%;
+    background-color: lightgrey;
+    
+}
+
+#presentIcon {
+    height: 8em;
+}
+
+/* Complete User Tasks */
+
+#user1Tasks {
+    text-align: center;
+    background-color: red;
+}
+
+#user2Tasks {
+    text-align: center;
+    background-color: blue;
+}
+
+#vertical-line {
+    width: 10px; /* Line width */ 
+    background-color: black; /* Line color */ 
+    height: 100%; /* Override in-line if you want specific height. */ 
+    float: center; /* Causes the line to float to left of content. You can instead use position:absolute or display:inline-block if this fits better with your design */
+     
+}
