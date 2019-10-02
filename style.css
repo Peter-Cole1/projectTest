@@ -4,38 +4,66 @@
     height: 6em;
 }
 
-#bumper {
-    background-color: aqua;
-}
-
 #tasks {
-    background-color: red;
+    padding-top: 1em;
     text-align: center;
+    background-color: lightsteelblue;
 }
 
 #date {
-    background-color: green;
+    background-color: lightsteelblue;
     text-align: center;
+    padding-top: 2em;
+}
+
+#bumper {
+    background-color:lightsteelblue;
 }
 
 /* User area  */ 
 
 #row2 {
-    height: 40em;
+    height: 30em;
 }
 
-#userName {
-    background-color: lightcoral;
+#userName1 {
+    background-color:  rgba(173, 216, 230, 0.123);
     text-align: center;
+    padding-top: 6em;
+}
 
-
+#userName2 {
+    background-color:  rgba(255, 182, 193, 0.226);
+    text-align: center;
+    padding-top: 6em;
 }
 
 #taskList {
-    background-color: lightgray;
+    background: url('paper.png');
+    background-size: 100%;
     text-align: center;
     padding-top: 5em;
+    
+}
 
+.image-cropper {
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+
+#icon1 {
+    width: auto;
+    height: 100%;
+}
+
+#icon2 {
+    width: auto;
+    height: 100%;
 }
 
 /* Progress Bar Section */
@@ -45,11 +73,13 @@
 }
 
 #user1Bar {
-    padding-top: 3em;
+    padding-top: 5em;
+    background-color:rgba(173, 216, 230, 0.123);
 }
 
 #user2Bar {
-    padding-top: 3em;
+    padding-top: 5em;
+    background-color:rgba(255, 182, 193, 0.226);
 }
 
 #user2Bar .progress-right .progress-bar {
@@ -58,34 +88,27 @@
 
 #prizeIcon {
     text-align: center;
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
-    border-radius: 50%;
-    background-color: lightgrey;
-    
+    background-image: linear-gradient(to right, rgba(173, 216, 230, 0.123) ,  rgba(255, 182, 193, 0.226));
+    /* border-style: dotted; */
 }
 
 #presentIcon {
     height: 8em;
+    padding-top: 1em;
 }
 
 /* Complete User Tasks */
 
 #user1Tasks {
     text-align: center;
-    background-color: red;
+    background-color:  rgba(173, 216, 230, 0.123);
 }
 
 #user2Tasks {
     text-align: center;
-    background-color: blue;
+    background-color:rgba(255, 182, 193, 0.226);
 }
 
-#vertical-line {
-    width: 10px; /* Line width */ 
-    background-color: black; /* Line color */ 
-    height: 100%; /* Override in-line if you want specific height. */ 
-    float: center; /* Causes the line to float to left of content. You can instead use position:absolute or display:inline-block if this fits better with your design */
-     
+#divider {
+    background-image: linear-gradient(to right, rgba(173, 216, 230, 0.123) ,  rgba(255, 182, 193, 0.226));
 }
