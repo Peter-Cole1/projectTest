@@ -77,7 +77,7 @@
 /* Progress Bar Section */
 
 #row3 {
-    height: 10em;
+    height: 12em;
 }
 
 #user1Bar {
@@ -103,8 +103,9 @@
 }
 
 #presentIcon {
-    height: 8em;
+    height: 10em;
     padding-top: 1em;
+    /* border-radius: 50%; */
 }
 
 /* Complete User Tasks */
